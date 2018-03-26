@@ -96,7 +96,7 @@ menu:
   archives: /archives/ || archive
   about: /about/ || user
   tags: /tags/ || tags
-  # categories: /categories/ || th
+  categories: /categories/ || th
   
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
@@ -106,10 +106,11 @@ menu:
 menu_icons:
   enable: true
   home: home
+  archives: archive
   about: user
   categories: th
   tags: tags
-  archives: archive
+  
 # ---------------------------------------------------------------
 # Scheme Settings
 # ---------------------------------------------------------------
@@ -235,8 +236,8 @@ post_meta:
 # Dependencies: https://github.com/willin/hexo-wordcount
 post_wordcount:
   item_text: true
-  wordcount: false
-  min2read: false
+  wordcount: true
+  min2read: true
   totalcount: false
   separated_meta: true
 
