@@ -81,3 +81,5 @@ deploy:
   type: git
   	repository: git@github.com:dafaWang/dafaWang.github.io.git
   	branch: master
+
+avatar: /images/avatar.png
