@@ -311,7 +311,7 @@ font:
 
   # Global font settings used on <body> element.
   global:
-    external: true
+    external: false
     family: Lato
     size:
 
