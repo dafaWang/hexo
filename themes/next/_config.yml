@@ -223,7 +223,7 @@ excerpt_description: true
 # Please use <!-- more --> in the post to control excerpt accurately.
 auto_excerpt:
   enable: false
-  length: 150
+  length: 50
 
 # Post meta display settings
 post_meta:
