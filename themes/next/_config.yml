@@ -92,7 +92,7 @@ index_with_subtitle: false
 # Value before `||` delimeter is the target link.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, question icon will be loaded.
 menu:
-  home: /
+  home: / ||home
   archives: /archives/ || archive
   about: /about/ || user
   tags: /tags/ || tags
@@ -117,9 +117,9 @@ menu_icons:
 
 # Schemes
 # scheme: Muse
-#scheme: Mist
-scheme: Pisces
-#scheme: Gemini
+# scheme: Mist
+# scheme: Pisces
+scheme: Gemini
 
 
 # ---------------------------------------------------------------
@@ -237,9 +237,9 @@ post_meta:
 post_wordcount:
   item_text: true
   wordcount: true
-  min2read: true
-  totalcount: false
-  separated_meta: true
+  min2read: false
+  totalcount: true
+  separated_meta: false
 
 # Wechat Subscriber
 #wechat_subscriber:
@@ -431,14 +431,14 @@ gitment:
 # This plugin is more useful in China, make sure you known how to use it.
 # And you can find the use guide at official webiste: http://www.jiathis.com/.
 # Warning: JiaThis does not support https.
-jiathis: true
-# sharesdk: true
-# shareSDKappkey: 17b33071d8574
+# jiathis: true
+sharesdk: true
+shareSDKappkey: 17b33071d8574
   ##uid: Get this uid from http://www.jiathis.com/
 #add_this_id:
 
 # Share
-#duoshuo_share: true
+# duoshuo_share: true
 
 # NeedMoreShare2
 # This plugin is a pure javascript sharing lib which is useful in China.
