@@ -5,4 +5,6 @@ type: "tags"
 tags:
   - hexo
   - disqus
+comments: false
+
 ---

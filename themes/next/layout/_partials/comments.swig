@@ -1,6 +1,15 @@
 {% if page.comments %}
 
-  {% if (theme.duoshuo and theme.duoshuo.shortname) or theme.duoshuo_shortname %}
+    {% if theme.valine.appid and theme.valine.appkey %}
+    <div class="comments" id="comments">
+    </div>
+    
+    {% elseif theme.livere_uid %}
+    <div class="comments" id="comments">
+      <div id="lv-container" data-id="city" data-uid="{{ theme.livere_uid }}"></div>
+    </div>
+
+    {% elseif (theme.duoshuo and theme.duoshuo.shortname) or theme.duoshuo_shortname %}
     <div class="comments" id="comments">
       <div class="ds-thread" data-thread-key="{{ page.path }}"
            data-title="{{ page.title }}" data-url="{{ page.permalink }}">
@@ -42,11 +51,6 @@
       <div id="uyan_frame"></div>
     </div>
 
-  {% elseif theme.livere_uid %}
-    <div class="comments" id="comments">
-      <div id="lv-container" data-id="city" data-uid="{{ theme.livere_uid }}"></div>
-    </div>
-
   {% elseif theme.changyan.appid and theme.changyan.appkey %}
     <div class="comments" id="comments">
       <div id="SOHUCS"></div>
@@ -62,9 +66,6 @@
       {% endif %}
     </div>
 
-  {% elseif theme.valine.appid and theme.valine.appkey %}
-    <div class="comments" id="comments">
-    </div>
   {% endif %}
 
 {% endif %}
