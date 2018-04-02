@@ -248,7 +248,7 @@ post_wordcount:
   #description: ex. subscribe to my blog by scanning my public wechat account
 
 # Reward
-reward_comment: 坚持原创分享，您的支持将鼓励我继续创作！
+reward_comment: 听说有人要打赏，我赶紧机智的提上裤子跑来贴上二维码
 wechatpay: /images/wechat_pay.png
 alipay: /images/ali_pay.png
 #bitcoin: /images/bitcoin.png
@@ -389,9 +389,9 @@ valine:
   appkey: LNXzRRakQ7bSabww6I0OXphJ
   notify: false # mail notifier , https://github.com/xCss/Valine/wiki
   verify: false # Verification code
-  placeholder: old iron ,do you feel happy to take a P?? # comment box placeholder
+  placeholder: 来都来了，不皮一下你会开心么？ # comment box placeholder
   avatar: mm # gravatar style
-  guest_info: nick,mail,link # custom comment header
+  guest_info: nick,mail #,link # custom comment header
   pageSize: 10 # pagination size
 
 
@@ -431,11 +431,12 @@ gitment:
 # This plugin is more useful in China, make sure you known how to use it.
 # And you can find the use guide at official webiste: http://www.jiathis.com/.
 # Warning: JiaThis does not support https.
-jiathis: true
-# sharesdk: true
-# shareSDKappkey: 17b33071d8574
+# jiathis: true
+# add_this_id: 2160280
+sharesdk: true
+shareSDKappkey: 17b33071d8574
   ##uid: Get this uid from http://www.jiathis.com/
-#add_this_id:
+
 
 # Share
 # duoshuo_share: true
